@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background: #131313;
+    padding: 1rem 8rem;
+    z-index: 1000;
+}
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+  color: white;
+  font-size: 1.1rem;
+  padding: 0 0.8rem;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover,
+#navbarSupportedContent > ul > li:nth-child(n) > a:active{
+color:yellow;
+}
+#navbarSupportedContent > button{
+    background: #00BF85;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+    color: black;
+}
+#navbarSupportedContent > button:hover{
+    color: yellow;
+}
+.mid{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.mid video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mid .hero{
+    position: relative;
+}
+.mid .hero p{
+width: 55%;
+font-size: 1.1rem;
+letter-spacing: 0.2px;
+padding-bottom: 1rem;
+}
+.mid .hero a{
+    background: #00BF85;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+}
+.mid .hero a:hover{
+    color: yellow;
+}
+.about{
+background: #000;
+}
+.about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.about .text h6{
+    color: yellow;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+.about .text h2{
+    color: #F7F5F4;
+    font-weight: 700;
+    font-size: 2.7rem;
+
+}
+.about .text p{
+    color: #F7F5F4;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+
+}
+.about .text a{
+    background: #00BF85;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+
+}
+.about .text a:hover{
+  color: yellow;
+   
+}
+.discovery{
+  
+    }
+    .discovery .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: auto;
+    }
+    .discovery .text h6{
+        color: yellow;
+        font-weight: 800;
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+    .discovery .text h2{
+       
+        font-weight: 700;
+        font-size: 2.7rem;
+    
+    }
+    .discovery .text p{
+       
+        font-weight: 400;
+        font-size: 1.1rem;
+        letter-spacing: 0.5px;
+    
+    }
+    .discovery .text a{
+        background: #00BF85;
+        font-weight: 600;
+        padding: 0.4rem 1.4rem;
+        border-radius: 30px;
+        color: black;
+        text-decoration: none;
+    
+    }
+    .discovery .text a:hover{
+      color: yellow;
+       
+    }
+
+    .service{
+        background: #000;
+    }
+    .service .one{
+        background: #F7F5F4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem 1.5rem;
+        border-radius: 7px;
+    }
+
+    .sign{
+  
+    }
+    .sign .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: auto;
+    }
+    .sign .text h6{
+        color: yellow;
+        font-weight: 800;
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+    .sign .text h2{
+       
+        font-weight: 700;
+        font-size: 2.7rem;
+    
+    }
+    .sign .text p{
+       
+        font-weight: 400;
+        font-size: 1.1rem;
+        letter-spacing: 0.5px;
+    
+    }
+    .sign .text a{
+        background: #00BF85;
+        font-weight: 600;
+        padding: 0.4rem 1.4rem;
+        border-radius: 30px;
+        color: black;
+        text-decoration: none;
+    
+    }
+    .sign .text a:hover{
+      color: yellow;
+       
+    }
+
+@media screen and (max-width:988px) {
+    .navbar{
+        padding: 1rem;
+    }
+    #navbarSupportContent > ul{
+        padding-left: 0.8rem;
+    }
+    #navbarSupportedContent > ul > li:nth-child(n) > a{
+        
+        padding: 0.8rem 0;
+      }
+      .mid .hero h2{
+     
+        font-size: 2.5rem;
+        
+        }
+      .mid .hero p{
+      
+        font-size: 1rem;
+       
+        }
+        .mid .hero a{
+       font-size: 0.9rem;
+        }
+}
